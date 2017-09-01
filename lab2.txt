@@ -1,0 +1,9 @@
+2 tables, one ticket sales, and the other concession stand. 
+
+table for Ticket sales
+(increment number for ticket sales), amount of seats left selected screening , movie, price, (screening time), (time ticket sold), (price), theather number, seat number?
+
+
+table for cocession
+
+total items sold per transaction, items, amount sold, price per unit, time of transaction.
