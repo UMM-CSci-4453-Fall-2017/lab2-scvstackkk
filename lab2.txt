@@ -1,9 +1,13 @@
+Group Members: Kyle Fluto, Matt Mitchell
 2 tables, one ticket sales, and the other concession stand. 
 
-table for Ticket sales
+Ticket Sales Table
 (increment number for ticket sales), amount of seats left selected screening , movie, price, (screening time), (time ticket sold), (price), theather number, seat number?
 
 
-table for cocession
-
+Concession Sales Table
 total items sold per transaction, items, amount sold, price per unit, time of transaction.
+
+Possibly add an inventory table to track items on hand and generate PO's.
+
+Also, a transaction table wouldn't be a bad idea that would record the sale of each item with a unique id, id of the employee who conducted the transaction, time of sale, inventory item id (to link with inventory to change amounts on hand). Line void functionality (delete commands). Modify item quanity, price, etc (update commands). Drop table command to delete the void the entire transaction, etc. Lots of options.
